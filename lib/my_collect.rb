@@ -3,6 +3,7 @@ def my_collect(col)
   while i < col.size 
     yield(col[i])
     i += 1 
-  end 
+  end
+  col 
 end 
 
